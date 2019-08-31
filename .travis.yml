@@ -13,8 +13,8 @@ services:
 
 script:
   - . ./ci/build.sh
-    pwd
-    ls -latr
+  - pwd
+  - ls -latr
 
 # note before_deploy will run before each deploy provider
 before_deploy:
